@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Headlights Simulator App",
+    "slug": "Headlights_Simulator_App_Final",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon_new.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/icon_stack.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_stack.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.isabelstrada.Headlights_Simulator_App_Final"
+    },
+    "web": {
+      "favicon": "./assets/icon_new.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "eac219eb-8622-43ba-aa65-fc10b3b8b896"
+      }
+    }
+  }
+}
